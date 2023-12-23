@@ -1,0 +1,89 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    .mfixed {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: #011731;
+        font-size: 16px;
+        text-align: center;
+        z-index: 999999;
+    }
+    
+    .mfixed div {
+        width: 33%;
+        text-align: center;
+        border-right: 1px solid;
+        padding: 10px;
+    }
+    .mfixed a{
+        color: white;
+    }
+    
+    .mfixed div:first-child {
+        border-radius: 15px 0 0 0;
+    }
+    .mfixed div:last-child{
+        border: none;
+        border-radius: 0 10px 0 0;  
+    }
+
+    nav{
+        display: none;
+    }
+    .bars{
+        display: block;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        color: #666;
+    }
+    menu{
+        position: static;
+        width: 400px;
+        margin:auto;
+    }
+    .bag{
+        padding-top: 50%;
+    }
+    .hhm,
+    #section4>.fs>.flex,
+    #section5>.fs,
+    .boxes,
+    .boxis,
+    .bb,
+    .last{
+        flex-direction: column;
+    }
+    .card{
+        margin: 5% 2%;
+    }
+    .box{
+        margin: 2% 5%;
+    }
+    .boxi{
+        margin: 40px 20px;
+    }
+    .boxi figure{
+        top: -80px;
+    }
+    .propertycatagory{
+        flex-wrap: wrap;
+    }
+    .propertycatagory button{
+        flex-basis: 40%;
+        background-color: #aa8036;
+    }
+    .boxes{
+        margin: 15px;
+    }
+    .boxes figure{
+        margin: 10px 0;
+    }
+    #section8 iframe{
+        width: 90%;
+    }
+    .last figure{
+        margin: 10% 0;
+    }
+}
